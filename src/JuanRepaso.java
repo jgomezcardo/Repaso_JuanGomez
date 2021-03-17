@@ -5,11 +5,13 @@ public class JuanRepaso {
 	
 		System.out.println("programa de muestra haz lo que veas conveniente");
 		
-		for(int i=0; i<10;i++) {
-			System.out.println("esto es una modificacion");
+		for(int i=1; i<=10;i++) {
+			for(int j=1;j<=10;j++) {
+				System.out.println(i + "x" + j + "=" + (i*j));
+			}
 			
 		}
-		System.out.println("pim pan");
+		
 	}
 	
 }
